@@ -1,0 +1,1 @@
+This is a group project. We have named it Fix up, where people can repair their electronics gadgets. We have made a platform where people can communicate to repair their electronics gadgets. We will provied home services.
