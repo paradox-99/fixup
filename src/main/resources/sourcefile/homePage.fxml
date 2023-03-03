@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@CSS/HomePage.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollBar layoutX="1266.0" orientation="VERTICAL" prefHeight="800.0" prefWidth="14.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane layoutX="-2.0" prefHeight="164.0" prefWidth="1266.0" styleClass="HomePageTitle" stylesheets="@CSS/HomePage.css" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="167.0" fitWidth="187.0" layoutX="75.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="1026.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@images/FiX%20Up-logos_black.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="71.0" fitWidth="81.0" layoutX="1102.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="39.0" AnchorPane.rightAnchor="95.0" AnchorPane.topAnchor="57.0">
+               <image>
+                  <Image url="@images/log-in.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="262.0" layoutY="64.0" prefHeight="58.0" prefWidth="516.0" text="Your Repair Solutions" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="262.0" AnchorPane.topAnchor="64.0">
+               <font>
+                  <Font name="Felix Titling" size="40.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
