@@ -5,3 +5,12 @@
 .HomePageTitle{
     -fx-background-color: rgb(195, 247, 240);
 }
+
+.titleBarServices{
+    -fx-background-radius: 25px;
+    -fx-background-color: rgb(255, 249, 160);
+}
+
+.BannerImage{
+    -fx-width: auto;
+}
