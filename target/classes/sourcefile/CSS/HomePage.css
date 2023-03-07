@@ -1,16 +1,35 @@
-.root{
-
+.root {
+    -fx-background-color: linear-gradient(to top left, rgb(226, 255, 180),#d3f0fd); 
 }
 
-.HomePageTitle{
-    -fx-background-color: rgb(195, 247, 240);
+.HomePageTitle {
+    -fx-background-color: rgb(244, 247, 195);
 }
 
-.titleBarServices{
+.titleBarServices {
     -fx-background-radius: 25px;
     -fx-background-color: rgb(255, 249, 160);
 }
 
-.BannerImage{
+.BannerImage {
     -fx-width: auto;
 }
+
+.servicePageHead {
+    -fx-background-color: rgb(226, 255, 180);
+}
+
+.servicePageHead2 {
+    -fx-background-color: linear-gradient(to left, rgb(226, 255, 180),rgb(227, 227, 227));
+}
+
+.servicePageHead3 {
+    -fx-background-color: linear-gradient(to right, rgb(226, 255, 180),rgb(227, 227, 227));
+}
+
+.serviceName{
+    -fx-background-color: rgb(150, 255, 255);
+    -fx-background-radius: 20px;
+    background-color: #4eeab6;
+}
+

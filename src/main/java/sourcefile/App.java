@@ -23,7 +23,7 @@ public class App extends Application {
         stage.getIcons().add(new Image(getClass().getResourceAsStream("images/taskBarIcon.png")));
         stage.setTitle("FiX Up"); // taskbar title
         //stage.initStyle(StageStyle.TRANSPARENT);
-        //stage.setResizable(false);
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }
