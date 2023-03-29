@@ -7,10 +7,14 @@ import javafx.fxml.FXML;
 
 public class HomePageController {
 
+    @FXML
+    void switchToLogin_Page(ActionEvent event) throws IOException {
+        App.setRoot("loginPage");
+    }
     
     @FXML
-    void switchToServicePage(ActionEvent event) throws IOException {
-        App.setRoot("servicePage");
+    void switchToService_page(ActionEvent event) throws IOException {
+        App.setRoot("servicePage"); 
     }
    
 }

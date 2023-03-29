@@ -12,17 +12,14 @@ import java.io.IOException;
 
 
 public class App extends Application {
-
+    
     private static Scene scene;
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("homePage"));
-        //scene.setFill(Color.TRANSPARENT);
-        // taskbar icon image
+        scene = new Scene(loadFXML("mainPage"));
         stage.getIcons().add(new Image(getClass().getResourceAsStream("images/taskBarIcon.png")));
         stage.setTitle("FiX Up"); // taskbar title
-        //stage.initStyle(StageStyle.TRANSPARENT);
         stage.setResizable(false);
         stage.setScene(scene);
         stage.show();

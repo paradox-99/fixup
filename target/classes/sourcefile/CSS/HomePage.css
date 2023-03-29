@@ -1,14 +1,26 @@
 .root {
-    -fx-background-color: linear-gradient(to top left, rgb(226, 255, 180),#d3f0fd); 
+    -fx-background-color: rgba(172, 172, 172, 0.733); 
 }
 
 .HomePageTitle {
-    -fx-background-color: rgb(244, 247, 195);
+    -fx-background-color: rgb(58, 63, 58);
 }
 
-.titleBarServices {
+.HomePageIntroduction{
+    -fx-background-color: rgb(0, 68, 255);
+}
+
+.HomePageTopServices1{
+    -fx-background-color: linear-gradient(to left, rgb(56, 240, 105),rgb(172, 172, 172, 0.733));
+}
+
+.titleBarServiceIcon {
     -fx-background-radius: 25px;
     -fx-background-color: rgb(255, 249, 160);
+}
+
+.titleBarServiceIcon:hover{
+    -fx-background-color: #cbffeaa7;
 }
 
 .BannerImage {
@@ -20,16 +32,29 @@
 }
 
 .servicePageHead2 {
-    -fx-background-color: linear-gradient(to left, rgb(226, 255, 180),rgb(227, 227, 227));
+    -fx-background-color: linear-gradient(to left, rgb(226, 255, 180),rgba(172, 172, 172, 0.733));
 }
 
 .servicePageHead3 {
-    -fx-background-color: linear-gradient(to right, rgb(226, 255, 180),rgb(227, 227, 227));
+    -fx-background-color: linear-gradient(to right, rgb(226, 255, 180),rgba(172, 172, 172, 0.733));
 }
 
 .serviceName{
     -fx-background-color: rgb(150, 255, 255);
-    -fx-background-radius: 20px;
-    background-color: #4eeab6;
+    -fx-background-radius: 50px;
+    background-color: #03b9b3;
+}
+.serviceName:hover{
+    -fx-background-color: #f9ff88b1;
+}
+
+
+/*   login section   */
+.loginButton{
+    -fx-background-color: #dcddc6dc;
+}
+
+.loginButton:hover{
+    -fx-background-color: #cbffeaa7;
 }
 
