@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="750.0" prefWidth="1484.5" styleClass="root" stylesheets="@CSS/HomePage.css">
+         <children>
+            <Pane prefHeight="120.0" prefWidth="1484.5" styleClass="HomePageTitle">
+               <children>
+                  <ImageView fitHeight="115.0" fitWidth="140.0" layoutX="140.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/FiX%20Up-logos_white.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Label layoutX="280.0" layoutY="31.0" prefHeight="55.0" prefWidth="470.0" text="Your Repair Solutions" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="40.0" />
+               </font>
+            </Label>
+            <Button layoutX="1155.0" layoutY="33.0" mnemonicParsing="false" onAction="#switchToService_page" prefHeight="50.0" prefWidth="150.0" styleClass="titleBarServiceIcon" text="Services">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Courier New Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="1345.0" layoutY="28.0" mnemonicParsing="false" onAction="#switchToLogin_Page" prefHeight="80.0" prefWidth="87.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="76.0" fitWidth="87.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@images/log-in.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
